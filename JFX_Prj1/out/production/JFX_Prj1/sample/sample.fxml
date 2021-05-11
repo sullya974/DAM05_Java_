@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" style="-fx-padding: 12px; -fx-min-width: 450px;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane id="anchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="414.0" style="-fx-background-color: pink; -fx-min-width: 550px;">
+         <children>
+            <ListView fx:id="lstBoisson" editable="true" prefHeight="215.0" prefWidth="200.0" />
+            <Button fx:id="btnSelect" layoutX="16.0" layoutY="224.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="168.0" text="Sélectionner" />
+            <Label fx:id="lblSelection" layoutX="208.0" layoutY="24.0" prefHeight="17.0" prefWidth="168.0" text="Sélection" textFill="#186fda">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnPayer" layoutX="368.0" layoutY="180.0" mnemonicParsing="false" text="Payer" />
+            <TextField fx:id="txtPaiement" layoutX="208.0" layoutY="180.0" />
+            <TextArea fx:id="txtMessagePaiement" layoutX="208.0" layoutY="55.0" prefHeight="105.0" prefWidth="200.0" />
+         </children>
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
